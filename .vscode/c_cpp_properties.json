@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "IntelliSense helper",
+            "includePath": [
+                //"${workspaceFolder}/src",
+                "${sdk}/OpenWRT-19.07.3/toolchain-mipsel_24kc_gcc-7.5.0_musl/include", // just any Linux include path
+            ],
+            "defines": [
+                "__unix__",
+                "__linux__",
+                "_GNU_SOURCE",
+                //"_DEBUG",
+            ],
+            "compilerPath": "C:/ncs/toolchains/c57af46cb7/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++.exe", // just any g++.exe, so that VSCode does not default to cl.exe
+            "cppStandard": "c++17",
+        }
+    ],
+    "version": 4
+}
